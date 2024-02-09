@@ -19,7 +19,7 @@ fn main() {
         .trim()
         .parse()
         .expect("Please enter a valid number");
-    println!("You entered: {}", boat1);
+   // println!("You entered: {}", boat1);
 
     //Take player 2's input to the grid
     println!("Player 2, enter a number between 0 and 47:");
@@ -29,7 +29,7 @@ fn main() {
         .trim()
         .parse()
         .expect("Please enter a valid number");
-    println!("You entered: {}", boat2);
+   // println!("You entered: {}", boat2);
 
     let mut b: usize;
     for i in boat1..(boat1 + 3) {
