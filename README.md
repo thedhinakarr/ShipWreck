@@ -1,6 +1,6 @@
 # SHIP WRECK
 
-"SHIP WRECK" is a two-player game implemented in Rust where players
+Ship_Wreck is a two-player game implemented in Rust where players
 strategically position their ships and take turns guessing and destroying each
 other's ships. The objective of the game is to sink the opponent's ship before
 they sink yours.
