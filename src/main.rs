@@ -59,21 +59,21 @@ fn main() {
 
             if attack1 == boat2 {
                 if hb2[0] == 0 {
-                    println!("Good job! boat 2 hit.");
+                    println!("Good job! boat 2 hit.🚢");
                     hb2[0] = 1;
                 } else {
                     println!("already hit");
                 }
             } else if attack1 == (boat2 + 1) {
                 if hb2[1] == 0 {
-                    println!("Good job! boat 2 hit");
+                    println!("Good job! boat 2 hit🚢");
                     hb2[1] = 1;
                 } else {
                     println!("You've already hit this, you dip shit.");
                 }
             } else if attack1 == (boat2 + 2) {
                 if hb2[2] == 0 {
-                    println!("Good job! boat 2 hit.");
+                    println!("Good job! boat 2 hit.🚢");
                     hb2[2] = 1;
                 } else {
                     println!("You've already hit this, you dip shit.");
@@ -105,14 +105,14 @@ fn main() {
                 }
             } else if attack2 == (boat1 + 1) {
                 if hb1[1] == 0 {
-                    println!("Good job! boat 1 hit.");
+                    println!("Good job! boat 1 hit.🚢");
                     hb1[1] = 1;
                 } else {
                     println!("You've already hit this you dip shit.");
                 }
             } else if attack2 == (boat1 + 2) {
                 if hb1[2] == 0 {
-                    println!("Good job! boat 1 hit.");
+                    println!("Good job! boat 1 hit.🚢");
                     hb1[2] = 1;
                 } else {
                     println!("You've already hit this you dip shit. Keep wasting your attempts and lose.")
