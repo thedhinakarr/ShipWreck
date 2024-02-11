@@ -4,8 +4,8 @@ use rpassword;
 use std::io::{self};
 
 fn main() {
-    let  boat1: i32;
-    let  boat2: i32;
+    let boat1: i32;
+    let boat2: i32;
     let mut countera: i32 = 0;
     let mut counterb: i32 = 0;
 
@@ -19,7 +19,6 @@ fn main() {
         .trim()
         .parse()
         .expect("Please enter a valid number");
-   // println!("You entered: {}", boat1);
 
     //Take player 2's input to the grid
     println!("Player 2, enter a number between 0 and 47:");
@@ -29,7 +28,6 @@ fn main() {
         .trim()
         .parse()
         .expect("Please enter a valid number");
-   // println!("You entered: {}", boat2);
 
     let mut b: usize;
     for i in boat1..(boat1 + 3) {
